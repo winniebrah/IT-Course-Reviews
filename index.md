@@ -11,8 +11,7 @@ description: "Direct course reviews for the IT Chapter at KTH."
 Welcome to the student-driven course evaluation hub. 
 {: .fs-6 .fw-300 }
 
-[View All Courses](#) | [Submit a Review](#)
-{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+[View All Courses](#) · [Submit a Review](#)
 
 ---
 
