@@ -1,9 +1,18 @@
 title: IT-Sektionen Reviews
 description: Student-driven course evaluations for the IT Chapter.
-theme: jekyll-theme-slate
+remote_theme: just-the-docs/just-the-docs
+
+# Enable the search bar (Crucial for your "10 seconds" goal)
+search_enabled: true
+search:
+  heading_level: 2 # Indexes your headers for better search results
+
+# Visual Polish
+color_scheme: "light" # Options: dark, light
+callouts_level: quiet # Makes warning boxes look cleaner
 
 baseurl: "/IT-Course-Reviews"
-url: "https://winniebrah.github.io" # Your username url
+url: "https://winniebrah.github.io"
 
 # This tells the Slate theme to use your logo automatically
-logo: /assets/images/logo.png
+logo: /assets/images/logo-4k.png
