@@ -1,26 +1,6 @@
+SCSS
+
 ---
 ---
 
-@import "{{ site.theme }}";
-
-/* Override the standard colors */
-a {
-  color: #CC99FF; /* IT Chapter color */
-}
-
-a:hover {
-  color: #835ea8; /* Darker on hover */
-}
-
-/* Change the header color */
-header {
-  background-color: #333;
-}
-
-/* Logo Sizing */
-.site-logo {
-  max-height: 50px; /* Controls the height */
-  width: auto;      /* Keeps the aspect ratio correct */
-  margin-right: 15px;
-  vertical-align: middle;
-}
+@import "just-the-docs";
