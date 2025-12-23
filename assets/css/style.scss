@@ -1,0 +1,15 @@
+@import "{{ site.theme }}";
+
+/* Override the standard colors */
+a {
+  color: #CC99FF; /* IT Chapter color */
+}
+
+a:hover {
+  color: #835ea8; /* Darker on hover */
+}
+
+/* Change the header color */
+header {
+  background-color: #333;
+}
