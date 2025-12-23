@@ -67,8 +67,8 @@ We are the students responsible for gathering feedback and pushing for improveme
   
   <div class="team-member">
     <img src="{{ '/assets/css/images/team/spongebob.jpg' | relative_url }}" alt="Photo of Member 1">
-    <h3>Name Surname</h3>
-    <p>President (PAS)</p>
+    <h3>Spongebob Squarepants</h3>
+    <p>SNO</p>
   </div>
 
   <div class="team-member">
