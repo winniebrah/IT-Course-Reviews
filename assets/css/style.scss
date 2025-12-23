@@ -16,3 +16,11 @@ a:hover {
 header {
   background-color: #333;
 }
+
+/* Logo Sizing */
+.site-logo {
+  max-height: 50px; /* Controls the height */
+  width: auto;      /* Keeps the aspect ratio correct */
+  margin-right: 15px;
+  vertical-align: middle;
+}
