@@ -25,7 +25,7 @@ This site is designed to be **direct**. No fluff.
 * **Contribute:** Found an error? [Edit this page on GitHub]({{ site.github.repository_url }}).
 
 ---
-
+---
 <br> ## Meet The Study Committee 2026 (Studienämnden)
 {: .fs-8 }
 
