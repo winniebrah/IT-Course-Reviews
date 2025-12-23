@@ -12,7 +12,7 @@ search_enabled: true
 color_scheme: "light"
 
 # Logo
-logo: "/assets/images/logo-4k.png"
+logo: "assets/images/logo-4k.png"
 
 kramdown:
   input: GFM
