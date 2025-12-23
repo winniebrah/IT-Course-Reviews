@@ -1,5 +1,9 @@
 title: IT-Sektionen Reviews
 description: Student-driven course evaluations for the IT Chapter.
-theme: jekyll-theme-minimal
-logo: /assets/4k-logo.png 
-show_downloads: false 
+theme: jekyll-theme-slate
+
+baseurl: "/IT-Course-Reviews"
+url: "https://winniebrah.github.io" # Your username url
+
+# This tells the Slate theme to use your logo automatically
+logo: /assets/images/logo.png
