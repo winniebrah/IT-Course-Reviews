@@ -1,7 +1,7 @@
 # Course Reviews (IT-Sektionen)
 Welcome! Here you can find summaries of course evaluations for the IT Chapter.
 
-<details>
+<details markdown="1">
 <summary><strong> 2024 (Click to expand)</strong></summary>
   
 ### Fall
