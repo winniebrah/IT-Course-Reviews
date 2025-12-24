@@ -9,3 +9,8 @@ search_enabled: true
 color_scheme: "light"
 
 logo: "/assets/css/images/logo-4k.png"
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
