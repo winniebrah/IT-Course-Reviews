@@ -4,6 +4,7 @@ baseurl: "/IT-Course-Reviews"
 url: "https://winniebrah.github.io"
 
 remote_theme: just-the-docs/just-the-docs
+color_scheme: "light" # We manually visually changed the sidebar to dark above
 
 # Enable the search bar
 search_enabled: true
