@@ -1,16 +1,8 @@
+remote_theme: just-the-docs/just-the-docs
 title: IT-Sektionen Reviews
 description: Student-driven course evaluations.
 baseurl: "/IT-Course-Reviews"
 url: "https://winniebrah.github.io"
-
-remote_theme: just-the-docs/just-the-docs
-
 search_enabled: true
 color_scheme: "light"
-
 logo: "/assets/css/images/logo-4k.png"
-
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
