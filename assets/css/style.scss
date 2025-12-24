@@ -1,63 +1,42 @@
 ---
 ---
 
-/* 1. Import Modern Font (Inter) */
+/* 1. Import Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 
-/* ======================================================
-   THEME OVERRIDES (Must come BEFORE the import)
-   ====================================================== */
-
-/* FONTS */
+/* 2. Define Variables (Colors & Fonts) */
 $body-font-family:    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 $heading-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 
-/* SIDEBAR COLORS (The "IT-Sektionen" Look) */
-$nav-background-color: #1a1a1a;       /* Dark Tech Grey */
-$site-title-color:     #CC99FF;       /* IT Purple for Title */
-$nav-text-color:       #e0e0e0;       /* Light Grey text */
-$nav-heading-text-color: #fff;        /* White headings */
+$nav-background-color: #1a1a1a;
+$site-title-color:     #CC99FF;
+$nav-text-color:       #e0e0e0;
+$nav-heading-text-color: #fff;
+$link-color:           #5c3d7d;
+$nav-active-color:     #CC99FF;
+$search-background-color: #333;
+$search-input-color:      #fff;
 
-/* LINKS & ACCENTS */
-$link-color:           #5c3d7d;       /* Darker purple for normal links (readable on white) */
-$nav-child-link-color: #bbbbbb;       
-$nav-active-color:     #CC99FF;       /* Bright IT Purple for the ACTIVE page */
-
-/* SEARCH BAR */
-$search-background-color: #333;       /* Darker search input */
-$search-input-color:      #fff;       /* White text in search */
-
-/* ======================================================
-   LOAD THEME
-   ====================================================== */
+/* 3. Load the Theme (MUST be after variables) */
 @import "just-the-docs";
 
-/* ======================================================
-   CUSTOM CSS TWEAKS (After the import)
-   ====================================================== */
-
-/* Make the sidebar logo circular and neat */
+/* 4. Custom Tweaks */
 .site-logo {
   border-radius: 50%;
-  border: 2px solid #CC99FF; /* Purple border around logo */
+  border: 2px solid #CC99FF;
   padding: 2px;
   max-width: 80px;
   margin-bottom: 1rem;
 }
 
-/* Style the "View All Courses" buttons to be IT Purple */
 .btn-primary {
-  background-color: #71002E; /* The Official "Hjärnan" Dark Red/Purple or use #835ea8 */
+  background-color: #71002E;
   border-color:     #71002E;
   color: #fff;
 }
+
 .btn-primary:hover {
-  background-color: #CC99FF; /* Bright IT Purple on hover */
+  background-color: #CC99FF;
   border-color:     #CC99FF;
   color: #000;
-}
-
-/* Make text crisp */
-body {
-  letter-spacing: -0.01em;
 }
